@@ -1,0 +1,107 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    border-radius: 10px;
+    max-width: 100%;
+    padding: 0 5%;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-shadow: 0 0 5px #000000;
+}
+
+.certificate-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+.certificate {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.certificate img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.certificate p {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 20px auto; 
+    color: #000000;
+}
+
+.text-container {
+    background-color: #ccc; 
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.profile-pic {
+    max-width: 40%; /* Adjust the max-width as needed */
+    border-radius: 50%;
+}
+
+body{
+    background-color: #ffffff;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.5); /* Use rgba for transparency */
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 12px ), repeating-linear-gradient( #55555555, #888888 );
+    background-repeat: repeat;
+}
+
+footer{
+    background-color: #ccc;
+    color:#000000
+}
+
+h1,h2,p{
+    display: inline-block;
+    background-color: #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+
+p{
+    font-size: 30px;
+}
+
+header>a {
+    display: none;
+}
+
+header>a:focus {
+    display: block;
+}
